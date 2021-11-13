@@ -1,65 +1,69 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.mainbody{
-    height: 80%;
-    
-    position: absolute;
-    background-color: black;
-    text-align: center;
-    left: 30px;
-    right: 30px;
-    color: aliceblue;
-    
-    
-}
-h1{
-    padding-bottom: 5%;
-}
-.messbody
-{
-    text-align: left;
-    position: absolute;
-    margin-top: 150px;
-    padding-left: 100px;
-}
-.messimg{
-    position: absolute;
-    right: 50px;
-    top: 150px;
-}
-.secclass{
-    
-    width: 80%;
-    position: absolute;
-    top: 750px;
-    left: 150px;
-  
 
-}
 
-.item1{
-    padding-top: 50px;
-    height: 300px;
-    background-color: aqua;
-    text-align: center;
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      
+
+    }
     
-}
-.fotter{
+  }
+  @media (max-width: 768px){
+    .mainlogo{
+      visibility:hidden
+    }
+
+  }
+
+  .div1{
+    margin: 30px;
+    text-align: center;
+  }
+
+  .middle{
+    position: relative;
+
+  }
+  .bottom{
+    position: relative;
+    margin: 30px;
+  }
+  .fotter{
+    margin: 0;
+    background-color: chartreuse;
     margin-top: 100px;
-    position: absolute;
-    top: 1000px;
-    height: 200px;
-    left: 30px;
-    right: 30px;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+  }
+  .upper{
+    background-color: #082032;
+    color: #5C7AEA;
+    margin: 30px;
+    border-radius: 10px;
+  }
+  .mainlogo{
+    float: right;
+    margin-right: 50px;
+    border-radius: 60px;
     
-    background-color: black;
     
-}
-.btn1{
     
-    width: 10%;
-    position: absolute;
-    top: 480px;
-    left: 150px;
-}
+    
+  }
+  
+  .blocks{
+    display: inline;
+   
+    
+    
+
+  }
