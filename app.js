@@ -139,8 +139,10 @@ $(".submit").click(function name(params) {
     $(".dis").text(tDis);
     $(".waste1").text(t-tused); 
     var element = document.getElementById("div3");
-element.classList.add("summary");
+        element.classList.add("summary");
 });
+
+
     // document.getElementById("div5").innerHTML += 
     //  " <tr> <td><input type=\"text\" class=\"form-control date \" ></td> <td><input type=\"text\" class=\"form-control date \" ></td> <td><input type=\"text\" class=\"form-control date \" ></td> <td><input type=\"text\" class=\"form-control date \" ></td> </tr> ";
     //  console.log(t);

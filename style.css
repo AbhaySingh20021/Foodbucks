@@ -247,6 +247,9 @@ h1{
   color: bisque;
   background: url("images/—Pngtree—hand\ drawn\ noodle\ food\ black_1041160.jpg");
 }
+.sums{
+  visibility: hidden;
+}
 
 .summary{
   background-color:#082032;
