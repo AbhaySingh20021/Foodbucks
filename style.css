@@ -1,0 +1,265 @@
+body{
+  
+  margin: 0;
+  padding: 0;
+  background: url("images/—Pngtree—hand\ drawn\ noodle\ food\ black_1041160.jpg");
+  background-size: 100px;
+  
+  
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      
+
+    }
+    
+  }
+  @media (max-width: 768px){
+    .mainlogo{
+      visibility:hidden
+    }
+
+  }
+
+  .div1{
+    margin: 30px;
+    text-align: center;
+      height: 420px;
+    line-height: 1.5;
+  }
+
+  .middle{
+    position: relative;
+
+  }
+  
+  
+  .upper{
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 4%, rgba(4,125,197,1) 62%, rgba(7,61,155,1) 97%);    
+    color:black;
+    margin: 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+  .mainlogo{
+    float: right;
+    margin-right: 150px;
+    border-radius: 40px;
+    
+  }
+  .btn1{
+    text-align: center;
+    padding: 5px 30px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: azure;
+    
+  }
+  
+  .savefood{
+    padding-bottom: 40px;
+    position: absolute;
+    top: 100px;
+    text-align: left;
+    left: 100px;
+    margin-bottom: 100px;
+    font-size: 4em;
+
+  
+    
+  }
+  button:hover{
+    transform:scale(1.1);
+  }
+
+  p{
+    margin-top: 40px;
+  }
+  .navmain{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top:0px;
+    padding-top: 2px;
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+  }
+  .navbar-brand{
+    color:gold;
+
+  }
+
+  .nav-link {
+    color:gold;
+    text-decoration: none;
+    font-size: large;
+
+  }
+  a {
+    
+    text-decoration: none;
+  }
+  .img2{
+    float: left;
+    padding-right: 20px;
+    margin-right: 50px;
+    border-radius: 20px;
+    width: 220px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    height: 150px;
+
+  }
+  .bottom{
+    position: relative;
+    margin: 80px 30px;
+    
+    line-height: 2;
+    background-color: #082032;
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+  h1{
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .box-shadow{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+
+  
+  
+  .footer {
+   
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    
+    background-color:darkslategrey;
+      
+    
+  }
+
+  .footer1{
+    
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #1abc9c;
+  }
+  .form-control{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .Mtable{
+    position: relative;
+    left: 450px;
+    text-align: center;
+    width: 50%;
+    top: 100px;
+    
+
+  }
+  table{
+    margin: 0;
+    padding: 0;
+  }
+
+  
+
+  .submit:hover{
+    transform: scale(1.2);
+  }  
+
+  #div5{
+    margin-bottom: 100px;
+  }
+
+  #footer {
+    position: fixed;
+    height: 100px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+.xl2{
+  position: relative;
+  left: 620px;
+  margin: 50px;
+  margin-top: 250px; 
+
+ 
+}
+.xl1{
+  width: 300px;
+  height: 100px;
+  font-size: 2rem;
+  color: cornsilk;
+  
+  font-weight: bolder;
+}
+.submit{
+  position: relative;
+  bottom: 5px;
+  height: 50px;
+  width: 200px;
+  margin-left: 20px;
+}
+th{
+  size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  position: relative;
+  top: 50px;
+  left: 600px;
+  font-weight: bold;
+  text-decoration:underline;
+  font-size: 5rem;
+  margin-bottom: 40px;
+  font-family:Arial, Helvetica, sans-serif Helvetica, sans-serif;
+}
+.body2{
+  color: bisque;
+  background: url("images/—Pngtree—hand\ drawn\ noodle\ food\ black_1041160.jpg");
+}
+
+.summary{
+  background-color:#082032;
+  width: 20%;
+  height: 150px;
+  margin: 50px;
+  visibility: visible;
+  
+}
+
+
+
+
+  
+  
+  
