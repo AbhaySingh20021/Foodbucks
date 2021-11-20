@@ -48,10 +48,10 @@
         <th colspan="5px" >Uneaten</th>
     </tr>
     <tr>
-        <td colspan="5px"><input type="text" class="form-control date" ></td> 
-        <td colspan="5px" ><input type="text" class="form-control date  text1"></td>
-        <td colspan="5px"><input type="text" class="form-control date  text2 "></td>
-        <td colspan="5px" ><input type="text" class="form-control date  text3 "></td>  
+        <td colspan="5px"><input type="text" class="form-control input1" ></td> 
+        <td colspan="5px" ><input type="text" class="form-control count input1  text1"></td>
+        <td colspan="5px"><input type="text" class="form-control count  input1 text2 "></td>
+        <td colspan="5px" ><input type="text" class="form-control count input1  text3 "></td>  
         <td >
           <button class="submit btn btn-dark ">Submit</button>
            </td>
@@ -69,20 +69,75 @@
 </div>
 
 <Div class="sums" id="div3"  >
-  <h3>Inventory Summary</h3>
-  <label for="">Total Item used :  </label>
-  <label class="used" for=""> </label>
-  <br>
-  <label for="">Total Discarded  : </label>
-  <label class="dis" for=""></label>
-  <br>
-  <label for="">Total item unused :  </label>
-  <label class="unused" for=""></label>
-  <br>
-  <label for="">Total waste :  </label>
+  <hr>
+  <h3 style="text-align: center; margin-bottom: 50px;">Inventory Summary</h3>
+  <hr>
+
+  <div class="container cont1">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"></div>
+            </div>
+            <label for="">Total Item used :  </label>
+            <label class="used" for=""></label>
+    
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"></div>
+            </div>
+            <label for="">Total Discarded  : </label>
+    <label class="dis" for=""></label>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="progress pink">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value"></div>
+            </div>
+            <label for="">Total item unused :  </label>
+    <label class="unused" for=""></label>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="progress green">
+              <span class="progress-left">
+                  <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                  <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value"></div>
+          </div>
+          <label for="">Total item waste :  </label>
   <label class="waste1" for=""></label>
-  <br>
+      </div>
+    </div>
+  </div>
+  <hr>
+  
+  
 </Div>
+
+ <!-- Circle bar -->
+
+
 
 
      
