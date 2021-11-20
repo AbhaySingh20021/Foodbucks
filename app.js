@@ -97,7 +97,8 @@ function s2ab(s) {
  
 $(".submit").click(function name(params) { //  
     push1();
-    console.log(uneaten);
+    
+
     
     waste.forEach( function (items) { // getting information from array and computing them.
         t+= Number(items);
@@ -120,7 +121,7 @@ $(".submit").click(function name(params) { //
       
    });
  
-    $(".date").val("");    // Clearing up the input fields
+    $(".input1").val("");    // Clearing up the input fields
     alert("Items added to database"); // code for alret dialog box
    
     
